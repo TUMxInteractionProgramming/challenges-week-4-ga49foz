@@ -91,7 +91,7 @@ h1 a {
     color: white;
 }
 
-h1 #channel-star {
+h1 #channel-staro {
     /* #6 #liking #filled  */
     position:absolute;
     right: 16px;
@@ -125,6 +125,7 @@ li {
 li .channel-meta {
     /* #5 #channels right-align channel-meta #icons absolute = relative to li */
     position: absolute;
+    font-size: 24px;
     right: 16px;
     top: 12px;
 }
@@ -184,6 +185,15 @@ li.selected {
     width: auto;
     flex-grow: 0;
 }
+
+#send_button {
+    position: absolute;
+    right: 0; 
+}
+#send_button i {
+ font-size: 24px; 
+}
+
 
 #emojis {
     /* #5 #smileys #emojis menu */
